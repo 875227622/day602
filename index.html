@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>day 6作业2</title>
+  <style>
+    /*  重置内外边距为0 将border和padding数值包含在width和height之内 ，修改border和padding数值盒子的大小不变。 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+/* 基底设置宽1226 */
+.wrapper {
+      width: 1226px;
+      margin: 0 auto;
+    }
+
+  
+
+    /* 设置导航栏框架高50 */
+    .daohang {
+      height: 50px;
+      background-color: #ffc0cb;
+    }
+
+    .daohang li a {
+      float: left;
+      padding: 0 40px;
+      height: 50px;
+      line-height: 50px;
+      text-decoration: none;
+      color: #fff;
+    }
+    .daohang li {
+      float: left;
+      /* 左浮动在块级别元素之上 */
+    }
+  /* 设置列表项前无标记 */
+  ul {
+      list-style: none;
+    }
+
+    .daohang li a:hover {
+      background-color: #008000;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <ul class="daohang wrapper">
+    <li><a href="#">新闻1</a></li>
+    <li><a href="#">新闻2</a></li>
+    <li><a href="#">新闻3</a></li>
+    <li><a href="#">新闻4</a></li>
+    <li><a href="#">新闻5</a></li>
+    <li><a href="#">新闻6</a></li>
+    <li><a href="#">新闻7</a></li>
+    <li><a href="#">新闻8</a></li>
+  </ul>
+
+
+  <br><br><br>
+
+  <img src="1.png">
+  <br>
+  <img src="./2.png">
+
+</body>
+</html>
+
+
+
